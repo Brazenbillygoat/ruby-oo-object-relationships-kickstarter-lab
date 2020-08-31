@@ -18,7 +18,6 @@ class Project
             if backers_and_projects.project == self
                 joint_array << backers_and_projects.backer
             end
-            # binding.pry
         end
         joint_array
     end
